@@ -1,0 +1,26 @@
+Lower bound:
+
+Case         N (Dev)    Accuracy (Dev)    N (Test)    Accuracy (Test)
+---------  ---------  ----------------  ----------  -----------------
+Unique          2788             40.21        2799              41.26
+Ambiguous       1748             25.8         1783              25.18
+New              749             29.11         703              26.32
+Total           5285             33.87        5285              33.85
+
+Upper bound:
+
+Case         N (Dev)    Accuracy (Dev)    N (Test)    Accuracy (Test)
+---------  ---------  ----------------  ----------  -----------------
+Unique          2788             77.37        2799              77.24
+Ambiguous       1748             86.1         1783              86.82
+New              749             78.64         703              74.96
+Total           5285             80.44        5285              80.17
+
+Baseline:
+
+Case         N (Dev)    Accuracy (Dev)    N (Test)    Accuracy (Test)
+---------  ---------  ----------------  ----------  -----------------
+Unique          2788             76.15        2799              75.88
+Ambiguous       1748             73.91        1783              73.92
+New              749             40.19         703              36.98
+Total           5285             70.31        5285              70.05
