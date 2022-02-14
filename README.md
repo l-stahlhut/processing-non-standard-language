@@ -17,7 +17,7 @@ $ python3 evaluation.py WUS_POS_data/dev_norm_out.txt WUS_POS_data/test_norm_out
 ```
 
 ## Data
-For this script, I worked with the [WUS corpus](https://whatsup-switzerland.ch/index.php/de/).
+For this script, I worked with the [WUS corpus](https://whatsup.linguistik.uzh.ch).
 In the corpus, there are three tab-seperated files **dev.txt**, **test.txt** and **train.txt** which are each structured 
 in the following way:
 - first column: original non-standard word
@@ -93,6 +93,24 @@ The newly generated POS tags that were created in the three settings are compare
 # $ pip install tabulate
 ```
 
+## Folder Structure
+```
+project
+│   README.md
+│   baseline.py    
+│   evaluation.py  
+│   eval_report.txt  
+│
+└───WUS_POS_data
+        dev.txt
+        dev_norm_out.txt
+        dev_norm_POS_out.txt
+        test.txt
+        test_norm_out.txt
+        test_norm_POS_out.txt
+        train.txt
+
+```
 
 ## License
 This script is licensed under the term of the MIT License, see the file LICENSE for more details. 
